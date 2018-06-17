@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Computer Vision using Microsoft APIs
+	</title>
+</head>
+<body>
+	<h1>Analyze image:</h1>
+	Enter the URL to an image, then click the <strong>Analyze image</strong> button.
+	<br><br>
+	Image to analyze:
+	<input type="text" name="inputImage" id="inputImage"
+	    value="https://i.redd.it/e2pdhjg5bk411.jpg" />
+	<button id="analyzeBtn">Analyze image</button>
+	<br><br>
+	<div id="wrapper">
+	    <div id="jsonOutput">
+	        Response:
+	        <br><br>
+	        <textarea id="responseTextArea" class="UIInput""></textarea>
+	    </div>
+	    <div id="imageDiv">
+	        Source image:
+	        <br><br>
+	        <img id="sourceImage" width="400" />
+	    </div>
+</body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="/js/main.js" type="text/javascript" charset="utf-8" async defer></script>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "testing ms computer vision api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "computer",
+    "vision",
+    "microsoft"
+  ],
+  "author": "farhad agzamov",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.87.0"
+  }
+}
